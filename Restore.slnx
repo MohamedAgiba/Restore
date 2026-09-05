@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/APi/">
+    <Project Path="APi/API.csproj" />
+  </Folder>
+</Solution>
