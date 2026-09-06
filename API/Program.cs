@@ -1,3 +1,4 @@
+using API.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,5 +15,7 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 app.MapControllers();
+
+DBInitializer.InitDb(app);
 
 app.Run();
