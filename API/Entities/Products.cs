@@ -1,8 +1,8 @@
-﻿namespace API;
+﻿namespace API.Entities;
 //each class I create is going to have a namespace where it logically resides,
 //whick prevent from having conflicts with classes that got same name. 
 
-public class Products
+public class Product
 {
     public int Id { get; set; }
     public required string Name { get; set; } 
